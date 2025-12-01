@@ -1,7 +1,6 @@
 # Netlify Configuration for Translink Solutions - 3D Truck Simulation
 
 [build]
-  base = "."
   command = "npm run build"
   publish = "dist"
 
