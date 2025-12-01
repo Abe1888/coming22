@@ -1,0 +1,45 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "npm run preview",
+      "url": ["http://localhost:4173"],
+      "numberOfRuns": 3,
+      "settings": {
+        "preset": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1638,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 375,
+          "height": 667,
+          "deviceScaleFactor": 2,
+          "disabled": false
+        }
+      }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "first-contentful-paint": ["error", {"maxNumericValue": 3000}],
+        "largest-contentful-paint": ["error", {"maxNumericValue": 4000}],
+        "interactive": ["error", {"maxNumericValue": 7000}],
+        "total-blocking-time": ["error", {"maxNumericValue": 500}],
+        "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}],
+        "speed-index": ["error", {"maxNumericValue": 5000}],
+        "performance": ["error", {"minScore": 0.75}],
+        "accessibility": ["warn", {"minScore": 0.9}],
+        "best-practices": ["warn", {"minScore": 0.9}],
+        "seo": ["warn", {"minScore": 0.9}]
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
