@@ -1,0 +1,179 @@
+/* HUD Progress Indicator */
+.hud-progress {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1.5rem;
+  align-items: center;
+  pointer-events: none;
+}
+
+/* Vertical Progress Bar */
+.hud-progress-bar {
+  position: relative;
+  width: 4px;
+  height: 400px;
+  background: rgba(108, 108, 108, 0.3);
+  border-radius: 2px;
+  overflow: visible;
+}
+
+.hud-progress-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, #be202e 0%, #ff4444 100%);
+  border-radius: 2px;
+  transition: height 0.3s ease-out;
+  box-shadow: 0 0 10px rgba(190, 32, 46, 0.5);
+}
+
+/* Progress Markers */
+.hud-marker {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background: #1d2635;
+  border: 2px solid #6c6c6c;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.hud-marker.active {
+  background: #be202e;
+  border-color: #be202e;
+  box-shadow: 0 0 10px rgba(190, 32, 46, 0.8);
+}
+
+/* Marker Text Labels */
+.hud-marker-text {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  pointer-events: none;
+  text-align: right;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Show text only when in current range (not passed) */
+.hud-marker.current .hud-marker-text {
+  opacity: 1;
+}
+
+.hud-marker-label {
+  font-size: 0.75rem;
+  color: #be202e;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.hud-marker-sublabel {
+  font-size: 0.625rem;
+  color: #1d2635;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hud-progress {
+    right: 1rem;
+    gap: 1rem;
+  }
+  
+  .hud-progress-bar {
+    height: 300px;
+  }
+  
+  .hud-status {
+    padding: 0.75rem;
+    min-width: 100px;
+  }
+  
+  .hud-percentage {
+    font-size: 1.5rem;
+  }
+  
+  .hud-section {
+    font-size: 0.625rem;
+  }
+}
+
+
+/* Phase Text Overlay */
+.phase-text-overlay {
+  position: fixed;
+  left: 2rem;
+  bottom: 6rem;
+  z-index: 40;
+  pointer-events: none;
+}
+
+.phase-text-content {
+  background: rgba(29, 38, 53, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  border-left: 4px solid #be202e;
+  max-width: 400px;
+}
+
+.phase-text-label {
+  font-size: 0.625rem;
+  color: #6c6c6c;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.phase-text-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.phase-text-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #be202e;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.phase-text-description {
+  font-size: 0.875rem;
+  color: #ffffff;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .phase-text-overlay {
+    left: 1rem;
+    bottom: 4rem;
+  }
+  
+  .phase-text-content {
+    padding: 1rem;
+    max-width: 280px;
+  }
+  
+  .phase-text-title {
+    font-size: 1.5rem;
+  }
+}
+

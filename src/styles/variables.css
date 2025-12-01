@@ -1,0 +1,114 @@
+/* ============================================
+   BRAND DESIGN SYSTEM VARIABLES
+   Translink Solutions - 3D Truck Simulation
+   ============================================ */
+
+:root {
+  /* ===== BRAND COLORS ===== */
+  --brand-primary: #be202e;      /* Crimson Red - Primary brand color, CTAs, highlights */
+  --brand-dark: #1d2635;         /* Deep Navy - Primary backgrounds, headers */
+  --brand-white: #ffffff;        /* Pure White - Text, icons, contrast elements */
+  --brand-gray: #b8b8b8;         /* Light Gray - Secondary text, borders, dividers */
+  --brand-emerald: #209771;      /* Emerald Green - Success states, active indicators */
+  --brand-chrome: #6c6c6c;       /* Chrome Metallic - Subtle accents, disabled states */
+  
+  /* Hover/Active States */
+  --brand-primary-hover: #d12a3a;
+  --brand-primary-active: #a81c28;
+  --brand-dark-deep: #0f1419;
+  
+  /* ===== TYPOGRAPHY ===== */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  /* Font Sizes */
+  --text-xs: 0.75rem;    /* 12px - Captions, labels */
+  --text-sm: 0.875rem;   /* 14px - Secondary text */
+  --text-base: 1rem;     /* 16px - Body text */
+  --text-lg: 1.125rem;   /* 18px - Emphasized text */
+  --text-xl: 1.25rem;    /* 20px - Subheadings */
+  --text-2xl: 1.5rem;    /* 24px - Section titles */
+  --text-3xl: 1.875rem;  /* 30px - Page titles */
+  --text-4xl: 2.25rem;   /* 36px - Hero text */
+  
+  /* ===== SPACING (4px base unit) ===== */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-24: 6rem;     /* 96px */
+  
+  /* ===== ANIMATION DURATIONS ===== */
+  --duration-micro: 150ms;      /* Micro interactions (hover, focus) */
+  --duration-ui: 300ms;         /* UI transitions (modals, dropdowns) */
+  --duration-page: 500ms;       /* Page transitions (route changes) */
+  --duration-3d: 1000ms;        /* 3D animations (camera movements) */
+  --duration-scroll: 1200ms;    /* Scroll animations (parallax, reveals) */
+  
+  /* ===== EASING FUNCTIONS ===== */
+  --ease-smooth: cubic-bezier(0.4, 0.0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-sharp: cubic-bezier(0.4, 0.0, 0.6, 1);
+  
+  /* ===== SHADOWS ===== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-glow-primary: 0 0 30px rgba(190, 32, 46, 0.3);
+  --shadow-glow-primary-hover: 0 0 50px rgba(190, 32, 46, 0.5);
+  --shadow-glow-emerald: 0 0 30px rgba(32, 151, 113, 0.3);
+  
+  /* ===== BORDERS ===== */
+  --border-radius-sm: 0.25rem;   /* 4px */
+  --border-radius-md: 0.5rem;    /* 8px */
+  --border-radius-lg: 0.75rem;   /* 12px */
+  --border-radius-xl: 1rem;      /* 16px */
+  --border-radius-full: 9999px;
+  
+  /* ===== Z-INDEX LAYERS ===== */
+  --z-canvas: 0;
+  --z-content: 10;
+  --z-ui: 20;
+  --z-overlay: 30;
+  --z-modal: 100;
+}
+
+/* ===== USAGE EXAMPLES ===== */
+
+/* Example: Primary Button */
+.example-primary-button {
+  background-color: var(--brand-primary);
+  color: var(--brand-white);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--duration-ui) var(--ease-smooth);
+}
+
+.example-primary-button:hover {
+  background-color: var(--brand-primary-hover);
+  box-shadow: var(--shadow-glow-primary-hover);
+}
+
+/* Example: Card */
+.example-card {
+  background-color: var(--brand-dark);
+  border: 1px solid var(--brand-chrome);
+  border-radius: var(--border-radius-xl);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Example: Success Badge */
+.example-success-badge {
+  background-color: rgba(32, 151, 113, 0.2);
+  color: var(--brand-emerald);
+  border: 1px solid var(--brand-emerald);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--border-radius-full);
+  font-size: var(--text-sm);
+}

@@ -1,0 +1,183 @@
+{
+  "buildTime": "2025-12-01T11:04:11.937Z",
+  "buildId": "min1jljjb6hte15ilo",
+  "assets": [
+    {
+      "name": "Main_truck_updated_compressed.glb",
+      "path": "model/compressed/Main_truck_updated_compressed.glb",
+      "size": 1385508,
+      "gzipSize": 1266404,
+      "checksum": "ac906ff1a33d57676d08290a0c35b9805f30999b8a90cf42929c411e73198694",
+      "compressionRatio": 0.086,
+      "type": "asset"
+    },
+    {
+      "name": "Loadingscreen.mp4",
+      "path": "Video/Loadingscreen.mp4",
+      "size": 1134742,
+      "gzipSize": 1134141,
+      "checksum": "00d30f818485460767bd629d8dea8dd18d6cc6e5ae1b9f2a6621c27bce4dbfe5",
+      "compressionRatio": 0.001,
+      "type": "asset"
+    },
+    {
+      "name": "Truck-Engine-Run2.mp3",
+      "path": "audio/Truck-Engine-Run2.mp3",
+      "size": 912822,
+      "gzipSize": 749450,
+      "checksum": "aedd2a41d120a3230c84edc220a9c5bee38863bf6877ddf34a6671192bbe67c6",
+      "compressionRatio": 0.179,
+      "type": "asset"
+    },
+    {
+      "name": "draco_decoder.js",
+      "path": "draco/draco_decoder.js",
+      "size": 719410,
+      "gzipSize": 148812,
+      "checksum": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04",
+      "compressionRatio": 0.793,
+      "type": "js"
+    },
+    {
+      "name": "three-CfJtgJvr.js",
+      "path": "assets/three-CfJtgJvr.js",
+      "size": 578655,
+      "gzipSize": 144516,
+      "checksum": "bef54face1b5564b262af265e65fcd923489e0849009b105e0ba8c1c42ffbb80",
+      "compressionRatio": 0.75,
+      "type": "js"
+    },
+    {
+      "name": "draco_decoder.wasm",
+      "path": "draco/draco_decoder.wasm",
+      "size": 285747,
+      "gzipSize": 88636,
+      "checksum": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2",
+      "compressionRatio": 0.69,
+      "type": "asset"
+    },
+    {
+      "name": "react-vendor-CBJRkAhd.js",
+      "path": "assets/react-vendor-CBJRkAhd.js",
+      "size": 139199,
+      "gzipSize": 44923,
+      "checksum": "9be94d405f0af5c34d586307f18647d9df966c51c7f047621435eadf4f17fcfe",
+      "compressionRatio": 0.677,
+      "type": "js"
+    },
+    {
+      "name": "index-Bv4vvcUm.js",
+      "path": "assets/index-Bv4vvcUm.js",
+      "size": 64431,
+      "gzipSize": 18447,
+      "checksum": "645681037739c8852bd11821fd2aabd43f57d9c2bf1d01131210720e8760d6ae",
+      "compressionRatio": 0.714,
+      "type": "js"
+    },
+    {
+      "name": "draco_wasm_wrapper.js",
+      "path": "draco/draco_wasm_wrapper.js",
+      "size": 58763,
+      "gzipSize": 11903,
+      "checksum": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8",
+      "compressionRatio": 0.797,
+      "type": "js"
+    },
+    {
+      "name": "index-8vdYByTf.css",
+      "path": "assets/index-8vdYByTf.css",
+      "size": 35675,
+      "gzipSize": 7790,
+      "checksum": "845dd40bed43a432e39a5cd8e580af2a5784ab6dda74f1231e53f0d7a22c4a8e",
+      "compressionRatio": 0.782,
+      "type": "css"
+    },
+    {
+      "name": "logo.webp",
+      "path": "optimized/logo.webp",
+      "size": 33432,
+      "gzipSize": 31451,
+      "checksum": "68a9c1bb6cd5d17fe9eb3b21b18d8df3136dc10e8620c6e0b5c74d90fb45e840",
+      "compressionRatio": 0.059,
+      "type": "asset"
+    },
+    {
+      "name": "loading-start-button.webp",
+      "path": "optimized/loading-start-button.webp",
+      "size": 31358,
+      "gzipSize": 30724,
+      "checksum": "05cd6230609392a4456b33291b140e03124f0c53c57fc8da7e14a87e63ba89e2",
+      "compressionRatio": 0.02,
+      "type": "asset"
+    },
+    {
+      "name": "Logo-white.webp",
+      "path": "optimized/Logo-white.webp",
+      "size": 30470,
+      "gzipSize": 29329,
+      "checksum": "5a0d6bfdc1d73b0348413d6e96d2e67c568ba15a441b85d7d77ac05b33c0f062",
+      "compressionRatio": 0.037,
+      "type": "asset"
+    },
+    {
+      "name": "Truck-Engine-Start.mp3",
+      "path": "audio/Truck-Engine-Start.mp3",
+      "size": 24000,
+      "gzipSize": 22979,
+      "checksum": "4fc94154f98e81732620adddea05a0b6ba0710acfa789c7a07358f1e49a6eb41",
+      "compressionRatio": 0.043,
+      "type": "asset"
+    },
+    {
+      "name": "Truck-Recycling-Air_Brake-Foot_Pedal.mp3",
+      "path": "audio/Truck-Recycling-Air_Brake-Foot_Pedal.mp3",
+      "size": 19226,
+      "gzipSize": 18432,
+      "checksum": "5c896f1cfdd9b8bb2fdc523de229dee721af941ee76455c4c8be822a85d780a4",
+      "compressionRatio": 0.041,
+      "type": "asset"
+    },
+    {
+      "name": "Truck-Engine-Run.mp3",
+      "path": "audio/Truck-Engine-Run.mp3",
+      "size": 16032,
+      "gzipSize": 15254,
+      "checksum": "539f2feecec841ef040e7b143fbdee3fc55d6d6c0920da280fb55b792120e4ea",
+      "compressionRatio": 0.049,
+      "type": "asset"
+    },
+    {
+      "name": "logo-front-truck.webp",
+      "path": "optimized/logo-front-truck.webp",
+      "size": 13522,
+      "gzipSize": 13437,
+      "checksum": "99bd717ef31b2b29816bf7f3630d73a80be42a851c59c50a2cb779a7436c99d7",
+      "compressionRatio": 0.006,
+      "type": "asset"
+    },
+    {
+      "name": "vendor-ChIAAe2R.js",
+      "path": "assets/vendor-ChIAAe2R.js",
+      "size": 3747,
+      "gzipSize": 1546,
+      "checksum": "3495c9b896fdaa755deb058d890f78bf1fe859883c9ed4c803bdd87e1ec5b089",
+      "compressionRatio": 0.587,
+      "type": "js"
+    },
+    {
+      "name": "index.html",
+      "path": "index.html",
+      "size": 861,
+      "gzipSize": 430,
+      "checksum": "73b8352516b7b73febc28061114ade5f022d5504ae9c441addae19736436d74d",
+      "compressionRatio": 0.501,
+      "type": "html"
+    }
+  ],
+  "summary": {
+    "totalAssets": 19,
+    "totalSize": 5487600,
+    "totalGzipSize": 3778604,
+    "averageCompressionRatio": 0.359
+  }
+}
